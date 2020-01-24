@@ -1,0 +1,21 @@
+* C:\Users\gebeid\Electronics\Project\Power Supply\power supply\power supply.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 8/29/2017 9:18:34 PM
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+T1  AC GND Net-_D2-Pad1_ Net-_D1-Pad1_ Transformer_1P_1S		
+C1  Net-_C1-Pad1_ Net-_5k1-Pad2_ 1200uf		
+U1  Net-_5k1-Pad1_ Net-_C1-Pad1_ Net-_Output1-Pad1_ LM7805		
+5k1  Net-_5k1-Pad1_ Net-_5k1-Pad2_ Net-_5k1-Pad2_ Voltage Adjuster		
+Output1  Net-_Output1-Pad1_ Net-_5k1-Pad2_ Screw_Terminal_1x02		
+C2  Net-_C1-Pad1_ Net-_5k1-Pad2_ 1200uf		
+C3  Net-_C1-Pad1_ Net-_5k1-Pad2_ 1000uf		
+D1  Net-_D1-Pad1_ Net-_5k1-Pad2_ D_ALT		
+D2  Net-_D2-Pad1_ Net-_5k1-Pad2_ D_ALT		
+D3  Net-_C1-Pad1_ Net-_D1-Pad1_ D_ALT		
+D4  Net-_C1-Pad1_ Net-_D2-Pad1_ D_ALT		
+
+.end
